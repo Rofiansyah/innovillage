@@ -3,9 +3,9 @@ setInterval(function () {
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
-        document.getElementById("suhu").innerHTML = res.suhu_udara;
-        document.getElementById("kel_udara").innerHTML = res.kel_udara;
-        document.getElementById("kel_tanah").innerHTML = res.kel_tanah;
-        document.getElementById("ph").innerHTML = res.ph_tanah;
+        document.getElementById("suhu").innerHTML = res.suhuUdara;
+        document.getElementById("kel_udara").innerHTML = res.kelUdara;
+        document.getElementById("kel_tanah").innerHTML = res.kelTanah;
+        document.getElementById("ph").innerHTML = res.phTanah;
       });
   }, 1000);
