@@ -1,6 +1,6 @@
 setInterval(function () {
-    fetch("http://localhost:8080/api")
-    //fetch("https://innovillage2022.herokuapp.com/api")
+    // fetch("http://localhost:8080/api")
+    fetch("https://innovillage2022.herokuapp.com/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
