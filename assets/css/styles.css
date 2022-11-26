@@ -5,7 +5,7 @@
 :root {
   /*========== Colors ==========*/
   --title-color: #fff;
-  --text-color: hsl(235, 20%, 57%);
+  --text-color: hsl(231, 89%, 65%);
   --shape-gradient: linear-gradient(90deg, 
                     hsl(300, 76%, 60%),
                     hsl(57, 81%, 60%));
